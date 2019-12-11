@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CreditKarma-test">
+
+
+<!-- TestUrl, Env and BuildNo will be fetched from Jenkins when we define them in job.
+For now commented.
+
+<parameter name="testUrl" value="$(TestUrl)"/>
+<parameter name="runEnv" value="$(Env)"/>
+<parameter name="buildUrl" value="$(BuildNo)"/>
+
+-->
+<parameter name="testUrl" value="CK"/>
+<parameter name="runEnv" value="Palo Alto"/>
+<parameter name="buildUrl" value="California"/>
+
+    <test name="Test" >
+        <classes>
+            <class name="com.creditkarma.runner.TestNGRunCucumberTest"/>
+        </classes>
+    </test>
+</suite>

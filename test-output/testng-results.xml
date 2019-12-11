@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5853" started-at="2019-11-15T01:09:54Z" finished-at="2019-11-15T01:10:00Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.creditkarma.runner.TestNGRunCucumberTest@fc807c1]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="5853" started-at="2019-11-15T01:09:54Z" finished-at="2019-11-15T01:10:00Z">
+      <class name="com.creditkarma.runner.TestNGRunCucumberTest">
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.creditkarma.runner.TestNGRunCucumberTest@fc807c1]" name="setParameters" is-config="true" duration-ms="26" started-at="2019-11-14T19:09:54Z" finished-at="2019-11-14T19:09:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testingstring]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testingBuildUrl]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testingTestdUrl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.creditkarma.runner.TestNGRunCucumberTest@fc807c1]" name="setUpClass" is-config="true" duration-ms="337" started-at="2019-11-14T19:09:54Z" finished-at="2019-11-14T19:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.creditkarma.runner.TestNGRunCucumberTest@fc807c1]" name="setUp" is-config="true" duration-ms="2550" started-at="2019-11-14T19:09:54Z" finished-at="2019-11-14T19:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.creditkarma.runner.TestNGRunCucumberTest@fc807c1]" name="feature" duration-ms="2669" started-at="2019-11-14T19:09:57Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-14T19:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Basic test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.creditkarma.runner.TestNGRunCucumberTest@fc807c1]" name="cleanUp" is-config="true" duration-ms="101" started-at="2019-11-14T19:09:59Z" finished-at="2019-11-14T19:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.creditkarma.runner.TestNGRunCucumberTest@fc807c1]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2019-11-14T19:10:00Z" finished-at="2019-11-14T19:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="createAllureEnvPropertiesFile()[pri:0, instance:com.creditkarma.runner.TestNGRunCucumberTest@fc807c1]" name="createAllureEnvPropertiesFile" is-config="true" duration-ms="12" started-at="2019-11-14T19:10:00Z" finished-at="2019-11-14T19:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAllureEnvPropertiesFile -->
+      </class> <!-- com.creditkarma.runner.TestNGRunCucumberTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
